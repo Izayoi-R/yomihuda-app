@@ -1,10 +1,10 @@
-import { Vote } from "./vote";
+import { SelectArea } from "./selectArea";
 
 export const Startpage = () => {
-    const hudaList = ["むらさめの","すみのえの"];
+    const hudaList = ["むらさめの", "すみのえの", "めぐりあいて", "ふくからに", "さびしさに", "ほととぎす", "せをはやみ", "むらさめの", "すみのえの", "めぐりあいて", "ふくからに", "さびしさに", "ほととぎす", "せをはやみ"];
     return (
         <>
-            <Vote list={hudaList}></Vote>
+            <SelectArea hudaList={hudaList}></SelectArea>
         </>
     );
 };
