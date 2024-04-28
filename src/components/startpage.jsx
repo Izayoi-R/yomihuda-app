@@ -1,7 +1,10 @@
+import { Vote } from "./vote";
+
 export const Startpage = () => {
+    const hudaList = ["むらさめの","すみのえの"];
     return (
         <>
-            <p>うおおおおお</p>
+            <Vote list={hudaList}></Vote>
         </>
     );
 };
